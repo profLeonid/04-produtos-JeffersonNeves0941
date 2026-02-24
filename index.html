@@ -7,16 +7,30 @@
     <script src="./main.js" defer></script>
     <title>Produtos</title>
 </head>
+    
 <body class="bg-gray-200 flex flex-col items-center justify-center h-screen gap-4">
+        <h1 class="text-2x1">Codigo</h1>
+    <input 
+        type="text" 
+        class="border px-4 py-2 rounded"
+        id="content"
+        >
     <h1 class="text-2x1">Lista de produto</h1>
     <input 
         type="text" 
         class="border px-4 py-2 rounded"
         id="produto"
     >
+        <h1 class="text-2x1">Quantidade</h1>
+    <input 
+        type="text" 
+        class="border px-4 py-2 rounded"
+        id="quantidade"
+    >
     <button 
         class="bg-blue-500 text-white px-4 py-2 rounded"
-        onclick="adicionarProduto()"
+        onclick="adicionarProduto()" 
+        
         >
             Adicionar
         </button>
